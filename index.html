@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS Wisata Lembang</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="nav-placeholder"></header>
+
+    <main class="hero">
+        <div class="hero-background">
+            <div class="slide active"><img src="images/banner1.webp" alt="banner1"></div>
+            <div class="slide"><img src="images/banner2.webp" alt="banner2"></div>
+            <div class="slide"><img src="images/banner3.webp" alt="banner3"></div>
+            <div class="slide"><img src="images/banner 4.webp" alt="banner4"></div>
+        </div>
+        <div class="content">
+            <div class="badge-top">✵ Jelajahi Keindahan Lembang</div>
+            <h1>Selamat Datang di <span>WebGIS</span> <br>Wisata <span>Lembang</span></h1>
+            <p>Temukan destinasi wisata terbaik di Lembang dengan mudah melalui <br> peta interaktif dan rekomendasi cerdas</p>
+            
+            <div class="cta-buttons">
+                <a href="rekomendasi.html" class="btn-main">✦ Jelajahi Wisata</a>
+                <a href="map.html" class="btn-outline">🕮 Lihat Peta</a>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <h2>20+</h2>
+                    <p>Destinasi Wisata</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <h2>100+</h2>
+                    <p>Pengunjung/Hari</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <h2>4+</h2>
+                    <p>Kategori Wisata</p>
+                </div>
+            </div>
+        </div>
+    </main>
+<section class="recommendation">
+    <div class="container">
+        <div class="badge-center">★ Pilihan Terbaik</div>
+        <h2 class="section-title">Rekomendasi <span>Wisata</span></h2>
+        <p class="section-subtitle">Destinasi wisata paling populer dan wajib dikunjungi saat berada di Lembang, Bandung</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-header blue-bg">
+                    <span class="category-tag">Wisata Alam</span>
+                    <span class="rating-tag">⭐ 4.7</span>
+                    <img src="images/Gunung Tangkuban Perahu3.jpg" alt="Icon">
+                </div>
+                <div class="card-body">
+                    <h3>Tangkuban Perahu</h3>
+                    <p>Gunung berapi aktif dengan kawah yang menakjubkan dan pemandangan alam yang spektakuler.</p>
+                    <div class="location">📍 Lembang Utara</div>
+                    <a href="#" class="btn-detail">👁 Lihat Detail</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header blue-bg">
+                    <span class="category-tag">Wisata Keluarga</span>
+                    <span class="rating-tag">⭐ 4.5</span>
+                    <img src="images/Floating Market 2.jpg" alt="Icon">
+                </div>
+                <div class="card-body">
+                    <h3>Floating Market</h3>
+                    <p>Pasar terapung unik dengan berbagai kuliner dan wahana air yang seru untuk keluarga.</p>
+                    <div class="location">📍 Lembang Barat</div>
+                    <a href="#" class="btn-detail">👁 Lihat Detail</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header blue-bg">
+                    <span class="category-tag">Wisata Instagramable</span>
+                    <span class="rating-tag">⭐ 4.6</span>
+                    <img src="images/susulembang3.jpg" alt="Icon">
+                </div>
+                <div class="card-body">
+                    <h3>Farm House Susu</h3>
+                    <p>Wisata bertema Eropa dengan spot foto instagramable dan edukasi peternakan.</p>
+                    <div class="location">📍 Jl. Raya Lembang</div>
+                    <a href="#" class="btn-detail">👁 Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map-preview">
+    <div class="container">
+        <div class="badge-center-orange">⚲ Peta Interaktif</div>
+        <h2 class="section-title white">Peta <span>Wisata</span> Lembang</h2>
+        <p class="section-subtitle white">Temukan lokasi wisata favorit Anda melalui peta interaktif</p>
+        
+        <div class="map-container-mockup">
+            <div class="map-placeholder">
+                <iframe 
+                    src="map.html" 
+                    width="100%" 
+                    height="450px" 
+                    style="border:none;"
+                    scrolling="no">
+                </iframe>
+                
+                <div class="map-legend">
+                    <span><i class="dot red" style="background: #e74c3c;"></i> Wisata Alam</span>
+                    <span><i class="dot yellow" style="background: #f1c40f;"></i> Wisata Keluarga</span>
+                    <span><i class="dot blue" style="background: #3498db;"></i> Wisata Instagramable</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <a href="map.html" class="btn-main">Buka Peta Layar Penuh</a>
+        </div>
+    </div>
+</section>
+
+<section class="category">
+    <div class="container">
+        <div class="badge-center">20 Jenis Wisata</div>
+        <h2 class="section-title">Kategori <span>Wisata</span></h2>
+        <p class="section-subtitle">Pilih kategori wisata sesuai keinginan Anda</p>
+
+        <div class="category-grid">
+            <div class="cat-card">
+                <div class="cat-icon green-grad"><img src="images/wisata alam.webp"></div>
+                <h3>Wisata Alam</h3>
+                <p>Nikmati keindahan alam pegunungan, air terjun, dan kebun teh</p>
+                <a href="map.html" class="link-jelajahi">Jelajahi →</a>
+            </div>
+            <div class="cat-card">
+                <div class="cat-icon yellow-grad"><img src="images/wisata hewan.png" alt="Wisata Hewan"></div>
+                <h3>Wisata Hewan</h3>
+                <p>Interaksi dengan berbagai jenis hewan dan pengalaman peternakan</p>
+                <a href="map.html" class="link-jelajahi">Jelajahi →</a>
+            </div>
+            <div class="cat-card">
+                <div class="cat-icon orange-grad"><img src="https://img.icons8.com/fluency/48/restaurant.png"></div>
+                <h3>Wisata Kuliner</h3>
+                <p>Nikmati berbagai kuliner khas Lembang dan jajanan pasar</p>
+                <a href="map.html" class="link-jelajahi">Jelajahi →</a>
+            </div>
+            <div class="cat-card">
+                <div class="cat-icon purple-grad"><img src="https://img.icons8.com/fluency/48/school.png"></div>
+                <h3>Wisata Edukasi</h3>
+                <p>Tempat edukasi tentang budaya, sejarah, dan sains</p>
+                <a href="map.html" class="link-jelajahi">Jelajahi →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="badge-center">Tentang Kami</div>
+        <h2 class="section-title">Mengenal <span>WebGIS Wisata Lembang</span></h2>
+        
+        <div class="about-content">
+            <p class="about-text">
+                WebGIS Wisata Lembang adalah platform sistem informasi geografis berbasis web yang dirancang untuk membantu wisatawan menemukan destinasi terbaik di kawasan Lembang, Bandung Barat. Dengan teknologi pemetaan modern, kami menyajikan informasi lengkap tentang lokasi, kategori, dan rekomendasi wisata.
+            </p>
+        </div>
+
+        <div class="team-section">
+            <h3 class="team-title">Kelompok 1</h3>
+
+            <!-- Desktop Grid -->
+            <div class="team-grid">
+                <div class="team-card pm-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/pm.jpg" alt="Project Manager" class="team-image">
+                    </div>
+                    <div class="team-icon pm-icon"></div>
+                    <h2>ADAN SOBIRIN</h2>
+                    <h4>Project Manager & Fullstack Developer</h4>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/uiux.jpg" alt="UI/UX Designer" class="team-image">
+                    </div>
+                    <div class="team-icon uiux-icon"></div>
+                    <h2>FITRA RAMADANI</h2>
+                    <h4>UI/UX Designer</h4>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/frontend.jpg" alt="Frontend Developer" class="team-image">
+                    </div>
+                    <div class="team-icon frontend-icon"></div>
+                    <h2>RIZKY ARIEFIOLIN WICAKSONO</h2>
+                    <h4>Frontend Developer</h4>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/qe.jpg" alt="Quality Engineer" class="team-image">
+                    </div>
+                    <div class="team-icon qe-icon"></div>
+                    <h2>AULIA RACHMA FADHILA</h2>
+                    <h4>Quality Engineer</h4>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/gis.jpg" alt="GIS Engineer" class="team-image">
+                    </div>
+                    <div class="team-icon gis-icon"></div>
+                    <h2>NUR ATHIFA MAGHFIRAH</h2>
+                    <h4>GIS Engineer</h4>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/deploy.jpg" alt="Deployment Specialist" class="team-image">
+                    </div>
+                    <div class="team-icon deploy-icon"></div>
+                    <h2>LULU MUNAWAROH</h2>
+                    <h4>Deployment Specialist</h4>
+                </div>
+            </div>
+
+            <!-- Mobile Slider -->
+            <div class="team-slider-wrapper">
+                <div class="team-slider" id="teamSlider">
+                    <div class="team-slide">
+                        <div class="team-image-wrapper">
+                            <img src="images/pm.jpg" alt="Project Manager" class="team-image">
+                        </div>
+                        <h2>ADAN SOBIRIN</h2>
+                        <h4>Project Manager & Backend Developer</h4>
+                    </div>
+                    <div class="team-slide">
+                        <div class="team-image-wrapper">
+                            <img src="images/uiux.jpg" alt="UI/UX Designer" class="team-image">
+                        </div>
+                        <h2>FITRA RAMADANI</h2>
+                        <h4>UI/UX Designer</h4>
+                    </div>
+                    <div class="team-slide">
+                        <div class="team-image-wrapper">
+                            <img src="images/frontend.jpg" alt="Frontend Developer" class="team-image">
+                        </div>
+                        <h2>RIZKY ARIEFIOLIN WICAKSONO</h2>
+                        <h4>Frontend Developer</h4>
+                    </div>
+                    <div class="team-slide">
+                        <div class="team-image-wrapper">
+                            <img src="images/qe.jpg" alt="Quality Engineer" class="team-image">
+                        </div>
+                        <h2>AULIA RACHMA FADHILA</h2>
+                        <h4>Quality Engineer</h4>
+                    </div>
+                    <div class="team-slide">
+                        <div class="team-image-wrapper">
+                            <img src="images/gis.jpg" alt="GIS Engineer" class="team-image">
+                        </div>
+                        <h2>NUR ATHIFA MAGHFIRAH</h2>
+                        <h4>GIS Engineer</h4>
+                    </div>
+                    <div class="team-slide">
+                        <div class="team-image-wrapper">
+                            <img src="images/deploy.jpg" alt="Deployment Specialist" class="team-image">
+                        </div>
+                        <h2>LULU MUNAWAROH</h2>
+                        <h4>Deployment Specialist</h4>
+                    </div>
+                </div>
+                <!-- Dots -->
+                <div class="team-slider-dots" id="sliderDots"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+    <style>
+    /* ===== MOBILE TEAM SLIDER ===== */
+    .team-slider-wrapper {
+        display: none; /* hidden on desktop */
+    }
+
+    .team-slider {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 20px;
+        padding: 10px 5px 20px;
+        scrollbar-width: none;
+    }
+    .team-slider::-webkit-scrollbar { display: none; }
+
+    .team-slide {
+        flex: 0 0 78vw;
+        max-width: 300px;
+        scroll-snap-align: center;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 20px;
+        padding: 25px 20px;
+        text-align: center;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+
+    .team-slide .team-image-wrapper {
+        width: 100%;
+        height: 200px;
+        border-radius: 14px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background: #e0e0e0;
+    }
+
+    .team-slide .team-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .team-slide h2 {
+        font-size: 14px;
+        color: white;
+        margin: 12px 0 5px;
+        font-weight: 700;
+    }
+
+    .team-slide h4 {
+        font-size: 12px;
+        color: rgba(255,255,255,0.65);
+        font-weight: 500;
+    }
+
+    /* Slider dots */
+    .team-slider-dots {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .slider-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.25);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .slider-dot.active {
+        background: var(--amber);
+        width: 22px;
+        border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+        .team-grid { display: none !important; }
+        .team-slider-wrapper { display: block; }
+    }
+    </style>
+
+    <script>
+ // Memuat header
+fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        
+        // Pindahkan fungsi klik hamburger ke sini agar terbaca oleh browser
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+            
+            // Menutup menu saat link di dalamnya diklik
+            const navLinks = navMenu.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+        }
+    });
+        
+        fetch('foother.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+            // Auto slideshow untuk hero banner
+                let currentSlide = 0;
+                const slides = document.querySelectorAll('.hero-background .slide');
+
+                function showSlide(index) {
+                    slides.forEach((slide, i) => {
+                        slide.classList.remove('active');
+                        if (i === index) {
+                            slide.classList.add('active');
+                        }
+                    });
+                }
+
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    showSlide(currentSlide);
+                }
+
+                // Mulai slideshow otomatis setiap 3 detik
+                setInterval(nextSlide, 3000);
+
+                // Tampilkan slide pertama
+                showSlide(currentSlide);
+
+                // Header scroll effect - tambahkan class solid saat scroll
+                window.addEventListener('scroll', function() {
+                    const header = document.querySelector('header');
+                    if (window.scrollY > 100) {
+                        header.classList.add('solid');
+                    } else {
+                        header.classList.remove('solid');
+                    }
+                });
+
+                // ===== MOBILE TEAM SLIDER =====
+                (function() {
+                    var slider = document.getElementById('teamSlider');
+                    var dotsContainer = document.getElementById('sliderDots');
+                    if (!slider || !dotsContainer) return;
+
+                    var slides = slider.querySelectorAll('.team-slide');
+                    var totalSlides = slides.length;
+
+                    // Build dots
+                    slides.forEach(function(_, i) {
+                        var dot = document.createElement('span');
+                        dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+                        dot.addEventListener('click', function() {
+                            slides[i].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                        });
+                        dotsContainer.appendChild(dot);
+                    });
+
+                    var dots = dotsContainer.querySelectorAll('.slider-dot');
+
+                    // Update active dot on scroll
+                    slider.addEventListener('scroll', function() {
+                        var idx = Math.round(slider.scrollLeft / slider.offsetWidth);
+                        dots.forEach(function(d, i) {
+                            d.classList.toggle('active', i === idx);
+                        });
+                    });
+                })();
+    </script>
+</body>
+</html>
